@@ -1,0 +1,118 @@
+/* LoginModal */
+
+.login-container{
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  
+  .login-box{
+    margin: 0 auto;
+    width: 450px;
+    height: 1100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+  }
+  
+  .login-box span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .login-box input{
+    display: block;
+    width: 230px;
+    height: 20px;
+    color: rgba(var(--i1d,38,38,38),1);
+    padding: 9px 0 7px 8px;
+    margin-bottom: 10px;
+    outline: none;
+    background: rgba(var(--b3f,250,250,250),1);
+    border-radius: 5px;
+    padding: 16px;
+  }
+
+/* + LoginModal */
+  .social-box h4{
+      margin-top: 1rem;
+      color: rgba(102, 112, 139, 0.781);
+      text-align: center;
+  }
+  .login-head{
+      text-align: right;
+      margin-top: 1.5rem;
+  }
+  .login-head span{
+      font-size: 17px;
+  }
+  .head-link{
+    /* display: inline-block; */
+    display: flexbox;
+    flex-direction: row;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    border: black;
+    /* margin-left: 10px; */
+
+  }
+  .form{
+    width: 400px;
+  }
+  .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  .exit{
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 5px;
+  }
+  .googlebox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .googlebox .google-login{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+  .JoinLoign-button{
+    border: 1px solid rgba(102, 112, 139, 0.781);
+    color: white;
+    background-color: black;
+    border-radius: .5rem;
+    display: flex;
+    margin: 0 auto;
+    height: 30px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+  }
+  .select {
+    width: 200px;
+    padding: .8em .5em;
+    border: 1px solid #999;
+    font-family: inherit;
+    background: src('../../public/arrow.jpg') no-repeat 95% 50%;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
+  .selectbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }

@@ -1,0 +1,18 @@
+<backend>안에서
+python이 깔려 있다는 전제
+python3 -m venv env(가상환경이름)
+(가상환경이름)env\Scripts\activate
+
+(가상환경이름) > python -m pip install --upgrade pip
+(가상환경이름) > pip install django
+(가상환경이름) > pip install djangorestframework
+(가상환경이름) > pip install djangorestframework-jwt
+(가상환경이름) > pip install django-cors-headers
+(가상환경이름) > pip install Pillow
+
+(가상환경이름) > python manage.py createsuperuser
+
+
+<frontend>안에서
+npm update
+npm start
