@@ -26,7 +26,7 @@ https://youtu.be/olowtquG6z4
 
 #How to run?
 
-<backend>에서
+/backend 파일에서
 python이 깔려 있다는 전제
 
 python3 -m venv env(가상환경이름)
@@ -48,7 +48,7 @@ python3 -m venv env(가상환경이름)
 (가상환경이름) > python manage.py createsuperuser
 
 
-<frontend>에서
+/frontend 파일에서
  
 npm update
   
